@@ -46,6 +46,7 @@ public class MainActivity extends AppCompatActivity {
                     Calculate cal=new Calculate(first,second);
                     result=cal.sub();
                     Toast.makeText(MainActivity.this, "total subtraction is"+result, Toast.LENGTH_LONG).show();
+
                 }else if (rdMul.isChecked()){
                     Calculate cal=new Calculate(first,second);
                     result=cal.mul();
